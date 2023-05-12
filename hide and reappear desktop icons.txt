@@ -1,0 +1,5 @@
+Hide:
+defaults write com.apple.finder CreateDesktop -bool false; killall Finder
+
+Reappear:
+defaults write com.apple.finder CreateDesktop -bool true; killall Finder
